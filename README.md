@@ -22,7 +22,7 @@
 
 ## 🚀 Key Features
 
-### 🎛️ 3. 핵심 설계 기여 : Custom Pulser System
+### 🎛️ 1. 핵심 설계 기여 : Custom Pulser System
 저는 본 프로젝트에서 **Verilog HDL을 사용하여 설계한 디지털 펄스 생성 시스템**의 구현을 담당했습니다:
 
 - **🛡️ FSM Design**: 안정적인 펄스 시퀀싱을 위한 FSM 구현
