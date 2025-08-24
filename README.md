@@ -6,7 +6,7 @@
 
 ## 🏗️ System Architecture
 
-### Hardware Components
+### 1. Hardware Components
 - **🔧 FPGA Board**: Opal Kelly XEM7320 (Xilinx Artix-7 기반)
 - **📊 ADC Module**: SYZYGY ADC (LTC2264-12, 12-bit, 125 MSPS)
 - **🎯 Custom Pulser Board**: Verilog HDL로 설계한 사용자 정의 펄스 생성 시스템
@@ -14,7 +14,7 @@
 - **🤖 Arduino Controller**: 자동화 스캐닝 메커니즘 제어
 - **⚡ DAC Module**: 신호 생성 및 펄스 제어
 
-### Software Components
+### 2. Software Components
 - **💻 FPGA Gateware**: Verilog 기반 하드웨어 제어 및 데이터 수집
 - **🖥️ Python GUI Application**: PyQt5 기반 사용자 인터페이스
 - **📈 Signal Processing**: 실시간 필터링, FFT 분석, 데이터 시각화
@@ -22,7 +22,7 @@
 
 ## 🚀 Key Features
 
-### 🎛️ 핵심 설계 기여 : Custom Pulser System
+### 🎛️ 3. 핵심 설계 기여 : Custom Pulser System
 저는 본 프로젝트에서 **Verilog HDL을 사용하여 설계한 디지털 펄스 생성 시스템**의 구현을 담당했습니다:
 
 - **🛡️ FSM Design**: 안정적인 펄스 시퀀싱을 위한 FSM 구현
