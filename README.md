@@ -23,7 +23,7 @@
 ## 🚀 Key Features
 
 ### 🎛️ 핵심 설계 기여 : Custom Pulser System
-저는 본 프로젝트에서 **Verilog HDL을 사용하여 직접 설계한 디지털 펄스 생성 시스템**의 구현을 담당했습니다:
+저는 본 프로젝트에서 **Verilog HDL을 사용하여 설계한 디지털 펄스 생성 시스템**의 구현을 담당했습니다:
 
 - **🛡️ FSM Design**: 안정적인 펄스 시퀀싱을 위한 FSM 구현
    (drawio FSM chart 그림 첨부) 
@@ -32,10 +32,6 @@
     - **⚡ PWS (Pulse Width Selection)**: 펄스 폭 제어 신호
     - **📈 POS/NEG Control**: 양극/음극 펄스 제어 (POS0/1, NEG0/1)
 - **⏱️ Burst Count Control**: 프로그래머블 버스트 카운트 설정
-- 
-  
-- **🔄 Mode Switching**: 하드웨어 기반 실시간 모드 전환 (Transmission/Reflection)
-- **📊 Programmable Parameters**: 사용자 정의 주파수, 버스트 카운트, 펄스 폭 설정
 
 
 ### 📡 Data Acquisition
