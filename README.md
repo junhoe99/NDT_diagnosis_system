@@ -1,5 +1,4 @@
 # 🌐Ion-Battery NDT Diagnosis System 
-> Verilog HDL을 활용한 RTL 설계 및 FPGA 프로토타입 설계를 통해 
 
 ## 🔍 Project Overview
 
