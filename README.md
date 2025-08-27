@@ -8,23 +8,23 @@
 ## 🎛️ 핵심 설계 기여 : Custom Pulser System
 저는 본 프로젝트에서 **Verilog HDL을 사용하여 설계한 디지털 펄스 생성 시스템**의 구현을 담당했습니다:
 
-- ** FSM Design**: 안정적인 펄스 시퀀싱을 위한 FSM 구현
+- **FSM Design**: 안정적인 펄스 시퀀싱을 위한 FSM 구현
    (drawio FSM chart 그림 첨부) 
-- ** Programmable Pulse Generation**: 사용자 정의 스펙에 따른 정밀 펄스 생성
-  - ** Flexible Pulse Shaping**: PWS, POS, NEG 신호를 통한 정밀한 펄스 형태 제어   
-    - ** PWS (Pulse Width Selection)**: 펄스 폭 제어 신호
-    - ** POS/NEG Control**: 양극/음극 펄스 제어 (POS0/1, NEG0/1)
-- ** Burst Count Control**: 프로그래머블 버스트 카운트 설정
+- **Programmable Pulse Generation**: 사용자 정의 스펙에 따른 정밀 펄스 생성
+  - **Flexible Pulse Shaping**: PWS, POS, NEG 신호를 통한 정밀한 펄스 형태 제어   
+    - **PWS (Pulse Width Selection)**: 펄스 폭 제어 신호
+    - **POS/NEG Control**: 양극/음극 펄스 제어 (POS0/1, NEG0/1)
+- **Burst Count Control**: 프로그래머블 버스트 카운트 설정
 
 ## 🏗️ System Architecture
 
 ### 1. Hardware Components
-- ** FPGA Board**: Opal Kelly XEM7320 (Xilinx Artix-7 기반)
-- ** ADC Module**: SYZYGY ADC (LTC2264-12, 12-bit, 125 MSPS)
-- ** Custom Pulser Board**: Verilog HDL로 설계한 사용자 정의 펄스 생성 시스템
-- ** Ultrasonic Transducers**: 다채널 초음파 센싱 시스템
-- ** Arduino Controller**: 자동화 스캐닝 메커니즘 제어
-- ** DAC Module**: 신호 생성 및 펄스 제어
+- **FPGA Board**: Opal Kelly XEM7320 (Xilinx Artix-7 기반)
+- **ADC Module**: SYZYGY ADC (LTC2264-12, 12-bit, 125 MSPS)
+- **Custom Pulser Board**: Verilog HDL로 설계한 사용자 정의 펄스 생성 시스템
+- **Ultrasonic Transducers**: 다채널 초음파 센싱 시스템
+- **Arduino Controller**: 자동화 스캐닝 메커니즘 제어
+- **DAC Module**: 신호 생성 및 펄스 제어
 
 ### 2. Software Components
 - **FPGA Gateware**: Verilog 기반 하드웨어 제어 및 데이터 수집
