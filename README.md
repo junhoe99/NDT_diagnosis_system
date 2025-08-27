@@ -2,7 +2,19 @@
 
 ## 🔍 Project Overview
 
-> 이 프로젝트는 초음파를 활용한 **비파괴 검사(NDT) 진단 시스템**입니다. FPGA 기반 하드웨어 제어, 실시간 신호 처리, 그리고 머신러닝을 결합하여 이온 배터리의 SoH(State of Health)대한 자동화된 평가를 수행합니다. 
+> 이 프로젝트는 초음파를 활용한 **비파괴 검사(NDT) 진단 시스템**입니다. FPGA 기반 하드웨어 제어, 실시간 신호 처리, 그리고 머신러닝을 결합하여 이온 배터리의 SoH(State of Health)대한 자동화된 평가를 수행합니다.
+
+
+## 🎛️ 핵심 설계 기여 : Custom Pulser System
+저는 본 프로젝트에서 **Verilog HDL을 사용하여 설계한 디지털 펄스 생성 시스템**의 구현을 담당했습니다:
+
+- **🛡️ FSM Design**: 안정적인 펄스 시퀀싱을 위한 FSM 구현
+   (drawio FSM chart 그림 첨부) 
+- **🔥 Programmable Pulse Generation**: 사용자 정의 스펙에 따른 정밀 펄스 생성
+  - **🎛️ Flexible Pulse Shaping**: PWS, POS, NEG 신호를 통한 정밀한 펄스 형태 제어   
+    - **⚡ PWS (Pulse Width Selection)**: 펄스 폭 제어 신호
+    - **📈 POS/NEG Control**: 양극/음극 펄스 제어 (POS0/1, NEG0/1)
+- **⏱️ Burst Count Control**: 프로그래머블 버스트 카운트 설정
 
 ## 🏗️ System Architecture
 
@@ -22,16 +34,7 @@
 
 ## 🚀 Key Features
 
-### 🎛️ 1. 핵심 설계 기여 : Custom Pulser System
-저는 본 프로젝트에서 **Verilog HDL을 사용하여 설계한 디지털 펄스 생성 시스템**의 구현을 담당했습니다:
 
-- **🛡️ FSM Design**: 안정적인 펄스 시퀀싱을 위한 FSM 구현
-   (drawio FSM chart 그림 첨부) 
-- **🔥 Programmable Pulse Generation**: 사용자 정의 스펙에 따른 정밀 펄스 생성
-  - **🎛️ Flexible Pulse Shaping**: PWS, POS, NEG 신호를 통한 정밀한 펄스 형태 제어   
-    - **⚡ PWS (Pulse Width Selection)**: 펄스 폭 제어 신호
-    - **📈 POS/NEG Control**: 양극/음극 펄스 제어 (POS0/1, NEG0/1)
-- **⏱️ Burst Count Control**: 프로그래머블 버스트 카운트 설정
 
 
 ### 📡 Data Acquisition
