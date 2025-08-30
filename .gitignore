@@ -1,0 +1,32 @@
+# Vivado / build artifacts
+.vivado.begin.rst
+.Xil/
+.runs/
+.gen/
+.cache/
+.hw/
+.ip/
+.sim/
+.logs/
+*.jou
+*.log
+*.wdb
+*.dcp
+*.ltx
+*.str
+*.rpx
+*.zip
+*.html
+
+# Bitstreams / binaries
+*.bit
+*.bin
+*.mmi
+
+# IP / constraints you don't want tracked
+*.xci
+*.xdc
+
+# Project-specific (생성물 폴더)
+vivado_project_bit/
+SZG-ADC-LTC2264-12.gen/

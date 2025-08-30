@@ -1,0 +1,14 @@
+# Vivado/툴 산출물은 통계 제외
+.runs/**  linguist-generated
+.gen/**   linguist-generated
+.cache/** linguist-generated
+.hw/**    linguist-generated
+.ip/**    linguist-generated
+.sim/**   linguist-generated
+.logs/**  linguist-generated
+*.xci     linguist-detectable=false
+*.xdc     linguist-detectable=false
+
+# SystemVerilog 인식 강화
+*.sv      linguist-language=SystemVerilog
+*.svh     linguist-language=SystemVerilog
